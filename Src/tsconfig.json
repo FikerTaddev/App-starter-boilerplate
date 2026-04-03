@@ -10,12 +10,13 @@
     "module": "nodenext",
     "target": "esnext",
     "types": [],
-    "paths": {
-      "@repo/core/*": ["packages/core/*"],
-      "@repo/products/*": ["packages/products/*"],
-      "@repo/shared/*": ["packages/shared/*"],
-      "@repo/ui/*": ["packages/ui/*"],
-    },
+  //  "baseUrl": ".",
+   "paths": {
+    "@repo/core/*": ["${configDir}/../../packages/core/*"],
+    "@repo/products/*": ["${configDir}/../../packages/products/*"],
+    "@repo/shared/*": ["${configDir}/../../packages/shared/*"],
+    "@repo/ui/*": ["${configDir}/../../packages/ui/*"]
+  },
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
