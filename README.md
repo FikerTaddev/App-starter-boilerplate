@@ -1,3 +1,13 @@
+# ⚠️ ARCHIVED / DEPRECATED
+This repository is no longer maintained and contains architectural errors. 
+
+### 🚀 Move to the New Version
+The project has been rebuilt from scratch as a Turborepo monorepo here:
+👉 **[https://github.com/FikerTaddev/Monorepo-Starter]**
+
+*Please head over there for the latest updates, NestJS backend, and Next.js frontend.*
+
+
 # 📦 Monorepo Boilerplate
 
 A scalable monorepo architecture for building multiple products using shared infrastructure, Turbo, Next.js, and NestJS.
